@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Ben Razor is on GitHub Pages!"
 date:   2021-06-04 19:25:45 +0100
 categories: jekyll update
 ---

@@ -19,4 +19,4 @@ github_username:  ben-razor
 
 # Build settings
 markdown: kramdown
-theme: hacker 
+theme: jekyll-theme-hacker 
