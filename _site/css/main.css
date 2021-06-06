@@ -7,11 +7,18 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
+@font-face {
+  font-family: Lato;
+  src: url(../assets/font/Lato/Lato-Regular.ttf); }
+@font-face {
+  font-family: LatoBold;
+  src: url(../assets/font/Lato/Lato-Bold.ttf); }
 /**
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font: $base-font-weight 16px/1.5 $base-font-family; */
+  font-family: "Lato", sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;

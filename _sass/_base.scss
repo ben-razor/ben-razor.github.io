@@ -8,13 +8,22 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+@font-face {
+    font-family: Lato;
+    src: url(../assets/font/Lato/Lato-Regular.ttf);
+}
 
+@font-face {
+    font-family: LatoBold;
+    src: url(../assets/font/Lato/Lato-Bold.ttf);
+}
 
 /**
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    /* font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family; */
+    font-family: "Lato", sans-serif;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
