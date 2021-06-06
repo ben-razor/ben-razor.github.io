@@ -18,7 +18,6 @@
     padding: 0 0.5em;
 }
 
-
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -26,6 +25,7 @@
     letter-spacing: 3px;
     margin-bottom: 0;
     float: left;
+    font-variant: small-caps;
 
     &,
     &:visited {
@@ -248,4 +248,13 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Pages
+ **/
+.proj-summary {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
 }

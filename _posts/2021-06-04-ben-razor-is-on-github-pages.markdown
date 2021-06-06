@@ -19,6 +19,8 @@ Jekyll offers powerful support for code snippets:
 def show_some_love_to(who):
   print(f"I ♥ {who}")
 
+:|`
+
 show_some_love_to('Python')
 
 # prints 'I ♥ Python' to STDOUT
