@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Writing
-permalink: /writing/
+title: Blog 
+permalink: /blog/
 ---
 
 <h1 class="page-heading">Posts</h1>

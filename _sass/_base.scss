@@ -32,9 +32,9 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    background: rgb(236,236,236);
+    background: linear-gradient(180deg, rgba(216,236,216,1) 0%, rgba(252,252,252,1) 2%, rgba(255,255,255,1) 100%);
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
