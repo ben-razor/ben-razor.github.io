@@ -341,6 +341,9 @@ pre {
   font-family: "LatoBold", sans-serif;
   font-variant: all-small-caps; }
 
+.proj-img {
+  border-radius: 0.5em; }
+
 /**
  * Syntax highlighting styles
  */

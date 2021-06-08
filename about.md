@@ -3,35 +3,17 @@ layout: page
 title: About
 permalink: /about/
 ---
-Ben Razor is a software engineer with a history of developing sports games and audio visual projects.
+Ben Razor is a software engineer with over 10 years experience developing sports games and audio visual projects
+for web and Android.
 
-{% include proj-summary.html 
-    img_name="splash-7-rounded.png" 
-    name="Super Slam Tennis" 
-    desc="A fast paced tennis game for Android" 
-    link="https://play.google.com/store/apps/details?id=com.games.defttouch.tennis.android"
-%}
+{% for item in site.data.projects %}
+  {% capture img_name %}{{ item.img_name }}{% endcapture %}
+  {% capture name %}{{ item.name }}{% endcapture %}
+  {% capture desc %}{{ item.desc}}{% endcapture %}
+  {% capture link %}{{ item.link }}{% endcapture %}
 
-{% include proj-summary.html 
-    img_name="pm-logo-1.png" 
-    name="Peace Machine" 
-    desc="A mellow sound generator for web and Android" 
-    link="https://peace-machine-9b07e.web.app/"
-%}
-
-{% include proj-summary.html 
-    img_name="tl-logo-1.png" 
-    name="Tagger Log" 
-    desc="A personal microlog with a Firebase backend and frontends for web and mobile." 
-    link="https://diarystore.firebaseapp.com/"
-%}
-
-{% include proj-summary.html 
-    img_name="bf-logo-1.png" 
-    name="Birdfeed" 
-    desc="A simple RSS and Twitter feed aggregator in React JS with a Python Flask backend." 
-    link="https://birdfeed-react.web.app/"
-%}
+  {% include proj-summary.html img_name=img_name name=name desc=desc link=link %}
+{% endfor }
 
 You can find the source code for my recent projects at:
 {% include icon-github.html username="ben-razor" %} 
