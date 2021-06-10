@@ -11,13 +11,13 @@
   skills:
     - Responsive Web Design
     - 3D Modelling and Animation
-    - Game Physics
+    - Physics
+    - Game Music
   tools:
     - AngularJS
     - Blender
     - LibGdx 3D
     - Android 
-    - Game Music
 
 - img_name: "pm-logo-1.png" 
   name: "Peace Machine" 
