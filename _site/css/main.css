@@ -401,10 +401,8 @@ pre {
   display: flex;
   flex-direction: row; }
 
-.proj-features-title {
-  font-size: 0.8em; }
-
 .proj-skill {
+  font-size: 0.9em;
   color: #b8997a;
   border: 1px solid #d6ccc2;
   border-radius: 0.5em;
