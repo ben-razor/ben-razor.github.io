@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden; }
+
 /**
  * Reset some basic elements
  */
@@ -29,11 +32,8 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  /*
-  background-image: url(../assets/img/br-screen-1.png);
-  */
-  background-repeat: no-repeat;
-  background-position: 16em 1.5em; }
+  overflow-x: hidden;
+  min-height: 100vh; }
 
 .graffiti {
   /*
@@ -47,8 +47,7 @@ body {
   font-size: 90%; }
 
 .wrapper {
-  position: relative;
-  overflow-x: hidden; }
+  position: relative; }
 
 .climber {
   position: absolute;
@@ -224,6 +223,7 @@ pre {
 
 .site-nav {
   float: right;
+  z-index: 1;
   line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
@@ -393,6 +393,7 @@ pre {
   text-align: center; }
 
 .proj-img {
+  height: auto;
   border-radius: 0.5em; }
 
 .proj-features-panel {
@@ -436,8 +437,10 @@ pre {
   position: relative; }
 
 .flex-media-left {
-  position: absolute;
-  left: -12px; }
+  position: absolute; }
+
+.flex-media-right {
+  margin-left: 2em; }
 
 .climber {
   position: absolute;

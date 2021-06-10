@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 /**
  * Reset some basic elements
  */
@@ -38,11 +42,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    /*
-    background-image: url(../assets/img/br-screen-1.png);
-    */
-    background-repeat: no-repeat;
-    background-position: 16em 1.5em;
+    overflow-x: hidden;
+    min-height: 100vh;
 }
 
 .graffiti {
@@ -59,7 +60,6 @@ body {
 
 .wrapper {
     position: relative;
-    overflow-x: hidden;
 }
 
 .climber {

@@ -21,6 +21,7 @@
 }
 
 .proj-img {
+    height: auto;
     border-radius: 0.5em;
 }
 
@@ -74,7 +75,10 @@
 
 .flex-media-left {
     position: absolute;
-    left: -12px;
+}
+
+.flex-media-right {
+    margin-left: 2em;
 }
 
 .climber {

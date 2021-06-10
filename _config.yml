@@ -9,8 +9,8 @@
 title: Ben Razor
 email: your-email@domain.com
 description: # this means to ignore newlines until "baseurl:"
-  Ben Razor is a versatile software developer. Most of his professional life has been spent developing web and mobile sports games.
-  His favourite playthings are Blender, Ableton Live, Python and modern JS.
+  Ben Razor is a versatile software developer. Most of his professional career has been devoted to developing web and mobile sports games.
+  His favourite playthings are Blender, Ableton Live, Python and JS.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  ben-razor
