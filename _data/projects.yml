@@ -47,8 +47,8 @@
     - Responsive Web Design
     - NoSQL DB (Google Firestore)
   tools:
-    - Bootstrap
     - Google Firebase
+    - Bootstrap
     - Android WebView
 
 - img_name: "bf-logo-1.png" 
@@ -61,9 +61,8 @@
     - HTML
     - CSS
   skills:
-    - Asynchronous Programming
     - HTTP APIs
-    - Logo Design
+    - Asynchronous Programming
   tools:
     - ReactJS
     - Python Flask

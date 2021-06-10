@@ -1,6 +1,6 @@
 <div class="proj-summary">
     <div class="proj-img-panel">
-        <img class="proj-img" src="/assets/img/{{ include.img_name }}" width="100" height="100" />
+        <img alt="{{ include.name }} project logo." class="proj-img" src="/assets/img/{{ include.img_name }}" width="100" height="100" />
         <div class="proj-langs">
             {% for lang in include.item.languages %}
                 <div class="proj-lang">{{ lang }}</div>
