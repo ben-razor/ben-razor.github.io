@@ -13,6 +13,9 @@ dl, dd, ol, ul, figure {
 @font-face {
   font-family: LatoBold;
   src: url(../assets/font/Lato/Lato-Bold.ttf); }
+@font-face {
+  font-family: Graffiti;
+  src: url(../assets/font/PermanentMarker-Regular.ttf); }
 /**
  * Basic styling
  */
@@ -20,16 +23,56 @@ body {
   /* font: $base-font-weight 16px/1.5 $base-font-family; */
   font-family: "Lato", sans-serif;
   color: #111;
-  background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  background: #ececec;
-  background: linear-gradient(180deg, #d8ecd8 0%, #fcfcfc 2%, white 100%); }
+  /*
+  background-image: url(../assets/img/br-screen-1.png);
+  */
+  background-repeat: no-repeat;
+  background-position: 16em 1.5em; }
 
+.graffiti {
+  /*
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 0.8em;
+  display: inline-block;
+  background-position: center;
+  */
+  font-family: "Graffiti";
+  font-size: 90%; }
+
+.wrapper {
+  position: relative; }
+
+.climber {
+  position: absolute;
+  left: -80px;
+  top: -50px; }
+
+.graphic-right {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-image: url(../assets/img/br-r-side-2.png);
+  width: 150px;
+  height: 100vh;
+  background-repeat: repeat-y;
+  background-size: contain; }
+
+/*
+.graffiti-N {
+    background-image: url(../assets/img/br-graffiti-N.png);
+}
+
+.graffiti-Z {
+    background-image: url(../assets/img/br-graffiti-Z.png);
+}
+*/
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -164,7 +207,8 @@ pre {
 
 .site-logo {
   float: left;
-  padding: 0 0.5em; }
+  padding: 0 0.5em;
+  width: 50px; }
 
 .site-title {
   font-size: 26px;
@@ -329,9 +373,6 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
-/**
- * Pages
- **/
 .proj-summary {
   margin: 1em 0;
   display: flex;
@@ -343,6 +384,38 @@ pre {
 
 .proj-img {
   border-radius: 0.5em; }
+
+.bg-div {
+  position: absolute;
+  z-index: -1; }
+
+.bg-div-1 {
+  top: -125%;
+  left: -100px;
+  color: #ddffcc;
+  font-size: 140em; }
+
+.flex-media {
+  position: relative; }
+
+.flex-media-left {
+  position: absolute;
+  left: -12px; }
+
+.climber {
+  position: absolute;
+  left: -80px;
+  top: -50px; }
+
+.graphic-right {
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  background-image: url(../assets/img/br-r-side-2.png);
+  width: 100px;
+  height: 75vh;
+  background-repeat: repeat-y;
+  background-size: contain; }
 
 /**
  * Syntax highlighting styles

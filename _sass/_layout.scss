@@ -13,6 +13,7 @@
 .site-logo {
     float: left;
     padding: 0 0.5em; 
+    width: 50px;
 }
 
 .site-title {
@@ -245,22 +246,4 @@
             font-size: 18px;
         }
     }
-}
-
-/**
- * Pages
- **/
-.proj-summary {
-    margin: 1em 0;
-    display: flex;
-    flex-direction: row;
-}
-
-.proj-name {
-    font-family: "LatoBold", sans-serif;
-    font-variant: all-small-caps;
-}
-
-.proj-img {
-    border-radius: 0.5em;
 }

@@ -18,6 +18,12 @@ dl, dd, ol, ul, figure {
     src: url(../assets/font/Lato/Lato-Bold.ttf);
 }
 
+@font-face {
+    font-family: Graffiti;
+    src: url(../assets/font/PermanentMarker-Regular.ttf);
+}
+
+
 /**
  * Basic styling
  */
@@ -25,16 +31,63 @@ body {
     /* font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family; */
     font-family: "Lato", sans-serif;
     color: $text-color;
-    background-color: $background-color;
+    // background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    background: rgb(236,236,236);
-    background: linear-gradient(180deg, rgba(216,236,216,1) 0%, rgba(252,252,252,1) 2%, rgba(255,255,255,1) 100%);
+    /*
+    background-image: url(../assets/img/br-screen-1.png);
+    */
+    background-repeat: no-repeat;
+    background-position: 16em 1.5em;
 }
+
+.graffiti {
+    /*
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 0.8em;
+    display: inline-block;
+    background-position: center;
+    */
+    font-family: "Graffiti";
+    font-size: 90%;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.climber {
+    position: absolute;
+    left: -80px;
+    top: -50px;
+}
+
+.graphic-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url(../assets/img/br-r-side-2.png);
+    width: 150px;
+    height: 100vh;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+
+/*
+.graffiti-N {
+    background-image: url(../assets/img/br-graffiti-N.png);
+}
+
+.graffiti-Z {
+    background-image: url(../assets/img/br-graffiti-Z.png);
+}
+*/
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
