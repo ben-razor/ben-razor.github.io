@@ -14,7 +14,7 @@
     font-family: "LatoBold", sans-serif;
     font-variant: all-small-caps;
     vertical-align: top;
-    line-height: 0.4em;
+    line-height: 0.6em;
 }
 
 .proj-img-panel {
@@ -34,11 +34,12 @@
 .proj-features {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .proj-skill {
     font-size: 0.9em;
-    color: hsl(30deg, 30%, 60%);
+    color: hsl(30deg, 50%, 30%);
     border: 1px solid hsl(30deg, 20%, 80%);
     border-radius: 0.5em;
     padding: 0.4em;
