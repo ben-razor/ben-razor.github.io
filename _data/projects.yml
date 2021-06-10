@@ -2,18 +2,67 @@
   name: "Super Slam Tennis" 
   desc: "A fast paced tennis game for Android" 
   link: "https://play.google.com/store/apps/details?id: com.games.defttouch.tennis.android"
+  languages:
+    - JS
+    - HTML
+    - CSS
+    - Java
+  skills:
+    - Responsive Web Design
+    - 3D Modelling and Animation
+    - Game Physics
+  tools:
+    - AngularJS
+    - LibGdx 3D Graphics
+    - Android 
 
 - img_name: "pm-logo-1.png" 
   name: "Peace Machine" 
   desc: "A mellow sound generator for web and Android" 
   link: "https://peace-machine-9b07e.web.app/"
+  languages:
+    - JS
+    - HTML
+    - CSS
+    - Java
+  skills:
+    - Design and Illustration
+    - HTML Audio
+    - Android Audio (JSyn)
+  tools:
+    - Android WebView and Audio
+    - Google Play Store
 
 - img_name: "tl-logo-1.png" 
   name: "Tagger Log" 
   desc: "A personal microlog with a Firebase backend and frontends for web and mobile." 
   link: "https://diarystore.firebaseapp.com/"
+  languages:
+    - JS
+    - HTML
+    - CSS
+  skills:
+    - Responsive Web Design
+    - NoSQL DB (Google Firestore)
+  tools:
+    - Bootstrap
+    - Google Firebase
+    - Android WebView
 
 - img_name: "bf-logo-1.png" 
   name: "Birdfeed" 
   desc: "A simple RSS and Twitter feed aggregator in React JS with a Python Flask backend." 
   link: "https://birdfeed-react.web.app/"
+  languages:
+    - JS
+    - Python
+    - HTML
+    - CSS
+  skills:
+    - Asynchronous Programming
+    - HTTP APIs
+    - Logo Design
+  tools:
+    - ReactJS
+    - Python Flask
+    - Google Cloud Platform (GCP)

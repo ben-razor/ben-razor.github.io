@@ -1,14 +1,35 @@
 <div class="proj-summary">
-    <img class="proj-img" src="/assets/img/{{ include.img_name }}" width="100" height="100" />
+    <div class="proj-img-panel">
+        <img class="proj-img" src="/assets/img/{{ include.img_name }}" width="100" height="100" />
+        <div class="proj-langs">
+            {% for lang in include.item.languages %}
+                <div class="proj-lang">{{ lang }}</div>
+            {% endfor %}
+        </div>
+    </div>
+
     <div style="padding: 0.2em 1em">
-        <h1>
+
+        <h1 style="display: inline">
             <a href="{{ include.link }}" class="proj-name">
                 {{ include.name }}
             </a>
         </h1>
-        <p class="proj-desc">
+        <div class="proj-desc">
             {{ include.desc }}
-        </p>
+            <div class="proj-features-panel">
+                <div class="proj-features">
+                    {% for skill in include.item.skills %}
+                        <div class="proj-skill">{{ skill }}</div>
+                    {% endfor %}
+                </div>
+                <div class="proj-features">
+                    {% for tool in include.item.tools %}
+                        <div class="proj-skill">{{ tool }}</div>
+                    {% endfor %}
+                </div>
+            </div>            
+        </div>
     </div>
 </div>
 

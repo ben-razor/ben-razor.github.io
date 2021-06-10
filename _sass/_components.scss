@@ -1,3 +1,9 @@
+.post {
+    background-image: linear-gradient(white, hsla(0deg, 0%, 98%, 0.5));
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
 .proj-summary {
     margin: 1em 0;
     display: flex;
@@ -9,8 +15,48 @@
     font-variant: all-small-caps;
 }
 
+.proj-img-panel {
+    width: 140px;
+    text-align: center;
+}
+
 .proj-img {
     border-radius: 0.5em;
+}
+
+.proj-features-panel {
+    margin-top: 0.5em;
+}
+
+.proj-features {
+    display: flex;
+    flex-direction: row;
+}
+
+.proj-features-title {
+    font-size: 0.8em;
+}
+
+.proj-skill {
+    color: hsl(30deg, 30%, 60%);
+    border: 3px solid hsl(30deg, 20%, 80%);
+    border-radius: 0.5em;
+    padding: 0.4em;
+    margin: 0.2em;
+}
+
+.proj-langs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    justify-content: center;
+}
+
+.proj-lang {
+    font-size: 10pt;
+    color: hsl(30%, 30%, 50%);
+    padding: 0 0.2em 0 0;
 }
 
 .bg-div {
@@ -42,6 +88,7 @@
 
 .graphic-right {
     position: absolute;
+    z-index: -1;
     right: -50px;
     top: -50px;
     background-image: url(../assets/img/br-r-side-2.png);
@@ -49,6 +96,7 @@
     height: 75vh;
     background-repeat: repeat-y;
     background-size: contain;
+    transform: translate(100px, 200px) perspective(200px) rotateX(86deg) rotateZ(4deg)
 }
 
 
