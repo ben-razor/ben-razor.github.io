@@ -47,7 +47,8 @@ body {
   font-size: 90%; }
 
 .wrapper {
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
 
 .climber {
   position: absolute;
