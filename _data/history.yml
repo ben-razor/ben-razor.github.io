@@ -52,3 +52,43 @@
         - HTML
         - JavaScript
         - CSS
+    - id: dev-ops
+      name: Soccer Manager DevOps
+      from: 2011-04-01
+      to: 2012-12-31
+      desc: >
+        Setup and configuration of web and cache servers, with load balancing to move support
+        from 50,000 active users over 1 million active users.
+        Developed a suite of in-house administration tools in Bash and Python to manage these servers.
+      langs:
+        - Python
+        - Bash
+    - id: soccer-engine
+      name: Real Time Interactive Football Simulation
+      from: 2013-01-01
+      to: 2014-06-01
+      desc: > 
+        Design and implementation of flexible, realistic, real time interactive football match
+        simulation platform with HTML5 Canvas 2D interface and basic 3D interface using WebGL.
+        Including systems for real physics simulation, targeting and collision detection.
+      langs:
+        - JavaScript
+        - HTML5
+      tools:
+        - WebGL
+    - id: sm-2015
+      name: Soccer Manager 2015
+      from: 2014-06-01
+      to: 2015-09-01
+      desc: >
+        Design and development on features and architecture for HTML5 single player
+        football game Soccer Manager 2015 with support for Android, iOS, web HTML and mobile HTML.
+      langs:
+        - JavaScript
+        - HTML
+        - CSS
+      tools:
+        - Android
+      
+
+      
