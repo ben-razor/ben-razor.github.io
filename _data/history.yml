@@ -1,0 +1,54 @@
+- id: uclan
+  name: University of Central Lancashire
+  type: education
+  from: 2004-09-15
+  to: 2007-05-15
+  projects:
+    - id: sample-studio
+      name: Sample Studio
+      desc: Music composition software in C++
+      langs:
+        - C++
+    - id: pic-tune
+      name: Microcontroller / Assembler
+      desc: Melody composer for the PIC 16F84 Microcontroller
+      langs:
+        - Assembly 
+- id: amey
+  name: Amey Infrastructure Services
+  from: 2007-10-01
+  to: 2008-03-31
+  type: work
+  projects:
+    - id: dep-boards
+      name: Rail information systems
+      desc: Train information board development on a legacy system in the C programming language.
+      langs:
+        - C
+    - id: bidding
+      name: Bidding Process Support
+      desc: Technical support and technical writing for bidding processes.
+- id: sm
+  name: Soccer Manager Ltd
+  type: work
+  from: 2008-04-01
+  to: 2017-12-31
+  projects:
+    - id: sm-worlds
+      name: Soccer Manager Multiplayer
+      from: 2008-04-01
+      to: 2011-04-01
+      desc: >
+        Design and development of interactive application features for soccermanager.com multiplayer 
+        web application. Including HTML5 canvas Kit Designer and JavaScript commentary
+        football match engine.
+ 
+        Internationalization of application, including design, implementation and coordination of 
+        in-game community translation system. Enabling the application to progress from single language to 
+        support for 40 languages including Right to Left languages Arabic and Hebrew.
+      langs:
+        - PHP
+        - SQL
+        - HTML
+        - JavaScript
+        - CSS
