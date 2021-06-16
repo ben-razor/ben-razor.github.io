@@ -1,8 +1,9 @@
 - id: uclan
   name: University of Central Lancashire
-  type: education
   from: 2004-09-15
   to: 2007-05-15
+  type: education
+  title: BSc Software Engineering
   projects:
     - id: sample-studio
       name: Sample Studio
@@ -13,7 +14,11 @@
       name: Microcontroller / Assembler
       desc: Melody composer for the PIC 16F84 Microcontroller
       langs:
-        - Assembly 
+        - Assembly
+  awards:
+    - University of Central Lancashire Student of the Year 2007
+    - Amey prize for Best Software Engineer 2007
+    - British Computer Society award for Best Student on an Accredited Course
 - id: amey
   name: Amey Infrastructure Services
   from: 2007-10-01

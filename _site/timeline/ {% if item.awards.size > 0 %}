@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Ben Razor</title>
+  <title>Ben Razor - Timeline</title>
   <meta name="description" content="Ben Razor is a versatile software developer. Most of his professional career has been devoted to developing web and mobile sports games. His favourite playthings are Blender, Ableton Live, Python and JS.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="canonical" href="http://yourdomain.com/timeline/ {% if item.awards.size > 0 %}">
   <link rel="alternate" type="application/rss+xml" title="Ben Razor" href="http://yourdomain.com/feed.xml">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -40,17 +40,17 @@
       <div class="trigger">
         
           
-        
+          <a class="page-link" href="/about/">About</a>
           
         
           
         
           
-          <a class="page-link" href="/projects/">Projects</a>
+        
           
         
           
-          <a class="page-link" href="/timeline/">Timeline</a>
+          <a class="page-link" href="/timeline/ {% if item.awards.size > 0 %}">Timeline</a>
           
         
           
@@ -69,25 +69,122 @@
       <div class="wrapper">
         <div class="climber"></div>
         <div class="graphic-right"></div>
-        <div class="home">
+        <article class="post">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+  <div class="post-content">
     
-      <li>
-        <span class="post-meta">Jun 4, 2021</span>
-
-        <h2>
-          <a class="post-link" href="/jekyll/update/2021/06/04/ben-razor-is-on-github-pages.html">Ben Razor is on GitHub Pages!</a>
-        </h2>
-      </li>
+  <h1>2004 University of Central Lancashire</h1>
+  <ul>
+    
+      <li>University of Central Lancashire Student of the Year 2007</li>
+    
+      <li>Amey prize for Best Software Engineer 2007</li>
+    
+      <li>British Computer Society award for Best Student on an Accredited Course</li>
     
   </ul>
+  
+    
+      <div>
+	
+	Sample Studio
+      </div>
+      <div style="padding: 1em;">Music composition software in C++</div>
+    
+      <div>
+	
+	Microcontroller / Assembler
+      </div>
+      <div style="padding: 1em;">Melody composer for the PIC 16F84 Microcontroller</div>
+    
+  
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  <h1>2007 Amey Infrastructure Services</h1>
+  <ul>
+    
+  </ul>
+  
+    
+      <div>
+	
+	Rail information systems
+      </div>
+      <div style="padding: 1em;">Train information board development on a legacy system in the C programming language.</div>
+    
+      <div>
+	
+	Bidding Process Support
+      </div>
+      <div style="padding: 1em;">Technical support and technical writing for bidding processes.</div>
+    
+  
 
+  <h1>2008 Soccer Manager Ltd</h1>
+  <ul>
+    
+  </ul>
+  
+    
+      <div>
+	 
+          2008 - 2011: 
+	
+	Soccer Manager Multiplayer
+      </div>
+      <div style="padding: 1em;">Design and development of interactive application features for soccermanager.com multiplayer  web application. Including HTML5 canvas Kit Designer and JavaScript commentary football match engine.
+Internationalization of application, including design, implementation and coordination of  in-game community translation system. Enabling the application to progress from single language to  support for 40 languages including Right to Left languages Arabic and Hebrew.
 </div>
+    
+      <div>
+	 
+          2011 - 2012: 
+	
+	Soccer Manager DevOps
+      </div>
+      <div style="padding: 1em;">Setup and configuration of web and cache servers, with load balancing to move support from 50,000 active users over 1 million active users. Developed a suite of in-house administration tools in Bash and Python to manage these servers.
+</div>
+    
+      <div>
+	 
+          2013 - 2014: 
+	
+	Real Time Interactive Football Simulation
+      </div>
+      <div style="padding: 1em;">Design and implementation of flexible, realistic, real time interactive football match simulation platform with HTML5 Canvas 2D interface and basic 3D interface using WebGL. Including systems for real physics simulation, targeting and collision detection.
+</div>
+    
+      <div>
+	 
+          2014 - 2015: 
+	
+	Soccer Manager 2015
+      </div>
+      <div style="padding: 1em;">Design and development on features and architecture for HTML5 single player football game Soccer Manager 2015 with support for Android, iOS, web HTML and mobile HTML.
+</div>
+    
+      <div>
+	 
+          2015 - 2016: 
+	
+	Soccer Manager 2016
+      </div>
+      <div style="padding: 1em;">Development and conversion to Unity game framework for single player games Soccer Manager 2016 and 2017. Conversion of backend infrastructure to use Google Cloud Platform.
+</div>
+    
+      <div>
+	 
+          2016 - 2017: 
+	
+	Soccer Manager Arena
+      </div>
+      <div style="padding: 1em;">Development and Server Infrastructure for real-time multiplayer game Soccer Manager Arena for Android, iOS and Steam. Backend infrastructure setup and development using Amazon Web Services in multiple regions.
+</div>
+    
+  
+
+  </div>
+
+</article>
 
       </div>
     </div>

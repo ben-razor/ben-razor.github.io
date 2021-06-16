@@ -1,0 +1,27 @@
+---
+layout: page
+title: Timeline 
+permalink: /timeline/
+---
+
+{% for item in site.data.history %}
+  <h1>{{ item.from | date: "%Y" }} {{ item.name }}</h1>
+  {% if item.awards.size > 0 %}
+  <ul>
+    {% for award in item.awards %}
+      <li>{{ award }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if item.projects.size > 0 %}
+    {% for project in item.projects %}
+      <div>
+	{% if project.from %} 
+          {{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
+	{% endif %}
+	{{ project.name }}
+      </div>
+      <div style="padding: 1em;">{{ project.desc }}</div>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
