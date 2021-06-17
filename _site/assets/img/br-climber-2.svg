@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="62.176991mm"
+   height="237.71159mm"
+   viewBox="0 0 62.176991 237.71159"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="br-climber-2.svg"
+   enable-background="new"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4843">
+      <stop
+         style="stop-color:#6d8b15;stop-opacity:1;"
+         offset="0"
+         id="stop4839" />
+      <stop
+         style="stop-color:#6d8b15;stop-opacity:0;"
+         offset="1"
+         id="stop4841" />
+    </linearGradient>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern948"
+       id="pattern1675"
+       patternTransform="matrix(0.541667,0,0,0.541667,1.3250492e-5,-2.3345223e-7)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="120"
+       height="120"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,-101.86459,53.583332)"
+       id="pattern948">
+      <g
+         id="g946"
+         transform="matrix(3.7795276,0,0,3.7795276,385.00004,-202.51968)">
+        <rect
+           style="opacity:1;fill:#9f9f9f;fill-opacity:0;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect940"
+           width="31.75"
+           height="31.75"
+           x="-101.86459"
+           y="53.583332"
+           ry="0.78358203" />
+        <g
+           id="g933"
+           transform="translate(42.333333,42.333333)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path927"
+             d="M -132.29167,32.416667 V 27.125 l -1.32291,-5.291666 h 3.96875 l 1.32291,5.291666 v 5.291667 z"
+             style="fill:#6d8b15;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path929"
+             d="M -127,32.416667 V 27.125 21.833334 h 3.96875 v 10.583333 z"
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="65.000041"
+       height="65.000041"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,-101.86459,53.583332)"
+       id="pattern1677">
+      <rect
+         id="rect955"
+         y="2.8421709e-14"
+         x="0"
+         height="65.000038"
+         width="65.000038"
+         style="fill:url(#pattern1675);stroke:none;stroke-width:2.04724526" />
+    </pattern>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1847"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feBlend
+         inkscape:collect="always"
+         mode="overlay"
+         in2="BackgroundImage"
+         id="feBlend1849" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter1851"
+       inkscape:label="filter1"
+       x="-0.079890201"
+       y="-0.059238313"
+       width="1.1597804"
+       height="1.1184766">
+      <feGaussianBlur
+         stdDeviation="0.29999999999999999"
+         id="feGaussianBlur1853" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4843"
+       id="linearGradient4845"
+       x1="124.35416"
+       y1="201.27083"
+       x2="153.45833"
+       y2="213.17708"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4688"
+       x="-0.15757252"
+       y="-0.15757255"
+       width="1.315145"
+       height="1.3151451">
+      <feFlood
+         flood-opacity="0.54902"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4678" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4680" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.24923699"
+         result="blur"
+         id="feGaussianBlur4682" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset4684" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite4686" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4708" />
+      <feFlood
+         id="feFlood4710"
+         flood-opacity="0.54902"
+         flood-color="rgb(106,109,129)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite4712"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4714"
+         in="composite1"
+         stdDeviation="0.5"
+         result="blur" />
+      <feOffset
+         id="feOffset4716"
+         dx="0"
+         dy="0"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite4718"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.1720699"
+     inkscape:cx="-337.07233"
+     inkscape:cy="1290.1734"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     width="600mm"
+     inkscape:object-nodes="true"
+     inkscape:snap-others="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid880"
+       originx="-101.86458"
+       originy="-75.40625" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-101.86458,27.59375)"
+     style="filter:url(#filter1847)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.162246px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 118.83059,16.436404 3.03111,-0.867333 2.85799,-1.686261 0.51929,2.4568 -2.85799,1.68624 -3.0311,0.867339 z"
+       id="path1801"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="0.62484625"
+       inkscape:transform-center-y="1.1604257"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1797"
+       d="m 120.48701,20.251867 2.21377,4.80635 3.41536,4.252894 -3.60476,1.660328 -3.41535,-4.252896 -2.21378,-4.806348 z"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png" />
+    <rect
+       style="fill:none;stroke:none"
+       width="17.197927"
+       height="17.197927"
+       x="116.56932"
+       y="23.127548"
+       id="rect1680"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png" />
+    <path
+       style="fill:url(#linearGradient4845);fill-opacity:1;stroke:none;stroke-width:0.200006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 122.68847,199.68777 c 0,0 35.77314,6.78166 41.3531,9.52056 -1.32282,2.64584 -42.9002,-1.32291 -43.65615,-1.32291 l -13.22917,1.32291 13.26437,-9.52056"
+       id="path4590"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799" />
+    <path
+       style="fill:#6d8b15;fill-opacity:1;stroke:none;stroke-width:0.200006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 120.42072,201.14298 V -9.06848 l -18.55614,-18.52527 h 20.90209 v 18.5208333 l -0.0391,210.2136767"
+       id="path1716"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0343513px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 120.38542,-9.0729167 h 2.38125 V -6.1625 l -2.38125,0.5291667 z"
+       id="path1758"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23151px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 107.63781,12.695386 2.49321,8.918476 8.91848,-2.493212 -2.49322,-8.918476 z m 2.85292,1.606314 4.45924,-1.246603 1.24659,4.459236 -4.45922,1.246607 z"
+       id="path1788"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1795"
+       d="m 118.52955,32.636899 -3.55707,-4.135108 -2.37486,-4.728822 3.54662,-1.781146 2.37486,4.728822 3.55707,4.135108 z"
+       style="fill:#6d8b15;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       style="fill:#6d8b15;fill-opacity:1;stroke:none;stroke-width:0.14249px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 108.64429,27.485703 0.57623,-2.880436 1.22007,-2.575418 1.93156,0.915054 -1.22007,2.575418 -0.57622,2.880444 z"
+       id="path1803"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="67.073799"
+       inkscape:export-ydpi="67.073799"
+       inkscape:export-filename="/home/chrisb/images/proj/ben-razor/br-graffiti-climber-2.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     sodipodi:insensitive="true"
+     style="display:none"
+     transform="translate(-101.86458,-75.40625)">
+    <image
+       transform="translate(0,103)"
+       y="-84.436928"
+       x="18.07918"
+       id="image877"
+       xlink:href="../../../Pictures/br-1.png"
+       preserveAspectRatio="none"
+       height="270.93332"
+       width="481.89441"
+       style="fill:#6d8b15;fill-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     style="display:inline"
+     transform="translate(-101.86458,-75.40625)" />
+</svg>

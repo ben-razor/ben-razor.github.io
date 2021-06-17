@@ -11,10 +11,10 @@
       langs:
         - C++
     - id: pic-tune
-      name: Microcontroller / Assembler
+      name: Microcontroller / Assembly
       desc: Melody composer for the PIC 16F84 Microcontroller
       langs:
-        - Assembly
+        - PIC 16F84 Assembly
   awards:
     - University of Central Lancashire Student of the Year 2007
     - Amey prize for Best Software Engineer 2007

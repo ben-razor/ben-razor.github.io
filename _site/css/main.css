@@ -454,12 +454,13 @@ pre {
 .climber {
   position: absolute;
   z-index: -1;
-  background-image: url(../assets/img/br-graffiti-climber-2.png);
+  background-image: url(../assets/img/br-graffiti-climber-3.png);
   background-repeat: no-repeat;
-  left: -80px;
+  background-size: contain;
+  left: -100px;
   top: -30px;
-  height: 100vh;
-  width: 100%; }
+  height: 650px;
+  width: 170px; }
 
 .graphic-right {
   position: absolute;
