@@ -19,6 +19,12 @@ dl, dd, ol, ul, figure {
 @font-face {
   font-family: Graffiti;
   src: url(../assets/font/PermanentMarker-Regular.ttf); }
+@font-face {
+  font-family: Venera;
+  src: url(../assets/font/Venera_Personal_Licence/Venera-300.otf); }
+@font-face {
+  font-family: Fairview;
+  src: url(../assets/font/Fairview_Personal_Licence/Fairview_Regular.otf); }
 /**
  * Basic styling
  */
@@ -472,6 +478,91 @@ pre {
   background-repeat: repeat-y;
   background-size: contain;
   transform: translate(100px) perspective(200px) rotateX(86deg) rotateZ(4deg); }
+
+.color-1-uclan {
+  stop-color: black; }
+
+.color-2-uclan {
+  stop-color: #007b8d; }
+
+.color-2-amey {
+  stop-color: grey; }
+
+.color-2-sm {
+  stop-color: green; }
+
+.timeline {
+  background-image: url(../assets/img/timeline-skewer-1.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 2em; }
+
+.timeline-header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-family: "Venera", sans-serif; }
+
+.timeline-divider {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  border-bottom: 2px dashed #e6e6e6; }
+
+.timeline-header-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 40%; }
+
+.timeline-header-center {
+  position: relative;
+  width: 120px;
+  height: 104px;
+  flex: 0 0; }
+
+.timeline-header-right {
+  flex: 1 0 40%; }
+
+.timeline-name {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: flex-end;
+  font-size: 1em;
+  margin: 0; }
+
+.timeline-title {
+  flex: 1 1 50%;
+  font-size: 0.8em;
+  line-height: 2em; }
+
+.timeline-year {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Fairview", sans-serif;
+  font-size: 48pt;
+  color: white;
+  filter: drop-shadow(5px 5px 10px black); }
+
+.timeline-details {
+  display: flex;
+  flex-direction: row;
+  padding: 1em; }
+
+.timeline-details-left {
+  flex: 1 0 35%; }
+
+.timeline-details-center {
+  flex: 1 0 auto; }
+
+.timeline-details-right {
+  flex: 1 0 35%; }
+
+.timeline-award {
+  padding: 0.5em; }
 
 /**
  * Syntax highlighting styles

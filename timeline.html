@@ -4,24 +4,49 @@ title: Timeline
 permalink: /timeline/
 ---
 
-{% for item in site.data.history %}
-  <h1>{{ item.from | date: "%Y" }} {{ item.name }}</h1>
-  {% if item.awards.size > 0 %}
-  <ul>
-    {% for award in item.awards %}
-      <li>{{ award }}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-  {% if item.projects.size > 0 %}
-    {% for project in item.projects %}
-      <div>
-	{% if project.from %} 
-          {{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
-	{% endif %}
-	{{ project.name }}
+<div class="timeline">
+  {% for item in site.data.history %}
+    
+    {% capture item %}{{ item }}{% endcapture %}
+    <div class="timeline-header">
+      <div class="timeline-divider"></div>
+      <div class="timeline-header-left">
+        <h1 class="timeline-name">{{ item.name }}</h1>
+        <div class="timeline-title">{{ item.title}}</div>
       </div>
-      <div style="padding: 1em;">{{ project.desc }}</div>
-    {% endfor %}
-  {% endif %}
-{% endfor %}
+      <div class="timeline-header-center">
+        <div>
+        {% include hex-1.svg color_1="#000000" color_2="#007d8b" item=item %}
+        </div>
+        <div class="timeline-year">
+          {{ item.from | date: "%Y" }} 
+        </div>
+      </div>
+      <div class="timeline-header-right"></div>
+    </div>
+
+    <div class="timeline-details">
+      <div class="timeline-details-left">
+        {% if item.awards.size > 0 %}
+          {% for award in item.awards %}
+            <div class="timeline-award">{{ award }}</div>
+          {% endfor %}
+        {% endif %}
+      </div>
+      <div class="timeline-details-center"></div>
+      <div class="timeline-details-right">
+        {% if item.projects.size > 0 %}
+          {% for project in item.projects %}
+            <div>
+        {% if project.from %} 
+                {{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
+        {% endif %}
+        {{ project.name }}
+            </div>
+            <div style="padding: 1em;">{{ project.desc }}</div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
