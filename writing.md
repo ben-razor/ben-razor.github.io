@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Blog 
+title: Writing
 permalink: /blog/
+order: 3
 ---
 
 <h1 class="page-heading">Posts</h1>
