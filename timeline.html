@@ -29,10 +29,12 @@ order: 1
     <div class="timeline-details">
       <div class="timeline-details-left">
         {% if item.awards.size > 0 %}
+          <div class="timeline-details-header">Awards</div>
           {% for award in item.awards %}
             <div class="timeline-award">{{ award }}</div>
           {% endfor %}
         {% endif %}
+
         {% for project in item.projects %}
           <div>
             {% capture id %}{{ project.id }}{% endcapture %}
@@ -46,7 +48,6 @@ order: 1
             {% endif %}
           </div>
         {% endfor %}
-
       </div>
       <div class="timeline-details-center"></div>
       <div class="timeline-details-right">

@@ -11,10 +11,14 @@
 }
 
 .proj-name {
-    font-family: "LatoBold", sans-serif;
-    font-variant: all-small-caps;
+    font-family: "Venera500", sans-serif;
+    font-size: 1em;
     vertical-align: top;
     line-height: 0.6em;
+}
+
+.proj-name a, a:hover, a:visited {
+    color: hsl(75deg, 75%, 10%);
 }
 
 .proj-img-panel {
@@ -175,6 +179,7 @@
     flex: 1 1 50%;
     display: flex;
     align-items: flex-end;
+    font-family: "Venera500", sans-serif;
     font-size: 1em;
     margin: 0;
 }
@@ -214,6 +219,18 @@
 
 .timeline-details-right {
     flex: 1 0 35%;
+}
+
+.timeline-details-header {
+    border: 2px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 0.5em 2em;
+    position: relative;
+    top: 0;
+    left: -1em;
+    background-color: white;
+    transform: perspective(10px) rotateX(1deg) rotateY(0deg) rotateZ(-2deg);
 }
 
 .timeline-award {
