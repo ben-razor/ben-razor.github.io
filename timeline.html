@@ -33,20 +33,36 @@ order: 1
             <div class="timeline-award">{{ award }}</div>
           {% endfor %}
         {% endif %}
+        {% for project in item.projects %}
+          <div>
+            {% capture id %}{{ project.id }}{% endcapture %}
+            {% capture side %}{{ site.data.history_display.projects[id].side }}{% endcapture %}
+            {% if side == "left" %} 
+              {% if project.from %} 
+                {{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
+              {% endif %}
+              {{ project.name }}
+              <div style="padding: 1em;">{{ project.desc }}</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+
       </div>
       <div class="timeline-details-center"></div>
       <div class="timeline-details-right">
-        {% if item.projects.size > 0 %}
           {% for project in item.projects %}
             <div>
-        {% if project.from %} 
-                {{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
-        {% endif %}
-        {{ project.name }}
+              {% capture id %}{{ project.id }}{% endcapture %}
+              {% capture side %}{{ site.data.history_display.projects[id].side }}{% endcapture %}
+              {% if side != "left" %} 
+                {% if project.from %} 
+                  {{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
+                {% endif %}
+                {{ project.name }}
+                <div style="padding: 1em;">{{ project.desc }}</div>
+              {% endif %}
             </div>
-            <div style="padding: 1em;">{{ project.desc }}</div>
           {% endfor %}
-        {% endif %}
       </div>
     </div>
   {% endfor %}

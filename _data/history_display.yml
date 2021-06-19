@@ -1,0 +1,13 @@
+projects:
+  dep_boards:
+    side:
+      left
+  sm_worlds:
+    side:
+      left
+  soccer_engine:
+    side:
+      left
+  sm_2016:
+    side:
+      left

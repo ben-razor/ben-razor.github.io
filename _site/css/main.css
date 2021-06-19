@@ -466,7 +466,8 @@ pre {
   left: -120px;
   top: -30px;
   height: 650px;
-  width: 170px; }
+  width: 170px;
+  opacity: 0.9; }
 
 .graphic-right {
   position: absolute;
@@ -562,7 +563,20 @@ pre {
   flex: 1 0 35%; }
 
 .timeline-award {
-  padding: 0.5em; }
+  position: relative;
+  padding: 0.5em;
+  color: white; }
+
+.timeline-award::before {
+  content: "";
+  top: 0.1em;
+  width: 105%;
+  height: 85%;
+  background-color: #1a3c4d;
+  position: absolute;
+  z-index: -1;
+  transform: perspective(2em) rotateX(1deg) rotateY(1deg);
+  opacity: 0.9; }
 
 @media screen and (max-width: 768px) {
   .timeline {

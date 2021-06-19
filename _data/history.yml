@@ -5,12 +5,12 @@
   type: education
   title: BSc Software Engineering
   projects:
-    - id: sample-studio
+    - id: sample_studio
       name: Sample Studio
       desc: Music composition software in C++
       langs:
         - C++
-    - id: pic-tune
+    - id: pic_tune
       name: Microcontroller / Assembly
       desc: Melody composer for the PIC 16F84 Microcontroller
       langs:
@@ -26,7 +26,7 @@
   type: work
   title: Software Engineer
   projects:
-    - id: dep-boards
+    - id: dep_boards
       name: Rail information systems
       desc: Train information board development on a legacy system in the C programming language.
       langs:
@@ -41,7 +41,7 @@
   from: 2008-04-01
   to: 2017-12-31
   projects:
-    - id: sm-worlds
+    - id: sm_worlds
       name: Soccer Manager Multiplayer
       from: 2008-04-01
       to: 2011-04-01
@@ -59,7 +59,7 @@
         - HTML
         - JavaScript
         - CSS
-    - id: dev-ops
+    - id: dev_ops
       name: Soccer Manager DevOps
       from: 2011-04-01
       to: 2012-12-31
@@ -70,7 +70,7 @@
       langs:
         - Python
         - Bash
-    - id: soccer-engine
+    - id: soccer_engine
       name: Real Time Interactive Football Simulation
       from: 2013-01-01
       to: 2014-06-01
@@ -83,7 +83,7 @@
         - HTML5
       tools:
         - WebGL
-    - id: sm-2015
+    - id: sm_2015
       name: Soccer Manager 2015 
       from: 2014-06-01
       to: 2015-09-01
@@ -97,7 +97,7 @@
       tools:
         - HTML5
         - Android
-    - id: sm-2016
+    - id: sm_2016
       name: Soccer Manager 2016
       from: 2015-09-01
       to: 2016-09-01
@@ -109,7 +109,7 @@
       tools:
         - Unity 3D Engine
         - Google Cloud Platform (GCP)
-    - id: sm-arena
+    - id: sm_arena
       name: Soccer Manager Arena
       from: 2016-09-01
       to: 2017-12-31
