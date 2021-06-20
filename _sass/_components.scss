@@ -39,7 +39,7 @@
 }
 
 .proj-features-panel {
-    margin-top: 0.5em;
+    margin-top: auto;
 }
 
 .proj-features {
@@ -209,18 +209,13 @@
     padding: 1em;
 }
 
-.timeline-details-left {
+.timeline-details-panel {
     flex: 1 0 35%;
     padding: 0 0 1em 0;
 }
 
 .timeline-details-center {
     flex: 1 0 auto;
-}
-
-.timeline-details-right {
-    flex: 1 0 35%;
-    padding: 0 0 1em 0;
 }
 
 .timeline-details-header {
@@ -255,6 +250,16 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
 }
 */
 
+.timeline-project {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.timeline-project-no-features {
+    height: initial;
+}
+
 .timeline-project-name {
     font-family: "Venera500", sans-serif;
     display: inline;
@@ -263,6 +268,15 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
 
 .timeline-project-desc {
     padding: 1em 0.5em;
+}
+
+.timeline-project-highlight {
+    padding: 0.8em 0 0 0;
+}
+
+.timeline-project-highlight:before {
+    content: "❖";
+    color: #734d26;
 }
 
 @media screen and (max-width: 768px) {

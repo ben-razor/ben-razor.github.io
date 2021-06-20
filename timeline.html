@@ -28,14 +28,14 @@ order: 1
 
       {% if item.id == "uclan" %}
         <div class="timeline-details">
-          <div class="timeline-details-left">
+          <div class="timeline-details-panel">
             <div class="timeline-project-name">Awards</div>
             {% for award in item.awards %}
               <div class="timeline-award">{{ award }}</div>
             {% endfor %}
           </div>
           <div class="timeline-details-center"></div>
-          <div class="timeline-details-right">
+          <div class="timeline-details-panel">
               {% for project in item.projects %}
                 {% include timeline-project.html project=project %}
               {% endfor %}
@@ -44,7 +44,7 @@ order: 1
 
       {% elsif item.id == "amey" %}
         <div class="timeline-details">
-          <div class="timeline-details-left">
+          <div class="timeline-details-panel">
             {% for project in item.projects %}
               {% if project.id == "dep_boards" %}
                 {% include timeline-project.html project=project %}
@@ -52,7 +52,7 @@ order: 1
             {% endfor %}
           </div>
           <div class="timeline-details-center"></div>
-          <div class="timeline-details-right">
+          <div class="timeline-details-panel">
               {% for project in item.projects %}
                 {% if project.id == "bidding" %}
                   {% include timeline-project.html project=project %}
@@ -62,7 +62,7 @@ order: 1
         </div>
       {% elsif item.id == "sm" %}
         <div class="timeline-details">
-          <div class="timeline-details-left">
+          <div class="timeline-details-panel">
             {% for project in item.projects %}
               {% if project.id == "sm_worlds" %}
                 {% include timeline-project.html project=project %}
@@ -70,7 +70,7 @@ order: 1
             {% endfor %}
           </div>
           <div class="timeline-details-center"></div>
-          <div class="timeline-details-right">
+          <div class="timeline-details-panel">
             {% for project in item.projects %}
               {% if project.id == "dev_ops" %}
                 {% include timeline-project.html project=project %}
@@ -80,7 +80,7 @@ order: 1
         </div>
 
         <div class="timeline-details">
-          <div class="timeline-details-left">
+          <div class="timeline-details-panel">
             {% for project in item.projects %}
               {% if project.id == "soccer_engine" %}
                 {% include timeline-project.html project=project %}
@@ -88,7 +88,7 @@ order: 1
             {% endfor %}
           </div>
           <div class="timeline-details-center"></div>
-          <div class="timeline-details-right">
+          <div class="timeline-details-panel">
             {% for project in item.projects %}
               {% if project.id == "sm_2015" %}
                 {% include timeline-project.html project=project %}
@@ -98,7 +98,7 @@ order: 1
         </div>
 
         <div class="timeline-details">
-          <div class="timeline-details-left">
+          <div class="timeline-details-panel">
             {% for project in item.projects %}
               {% if project.id == "sm_2016" %}
                 {% include timeline-project.html project=project %}
@@ -106,7 +106,7 @@ order: 1
             {% endfor %}
           </div>
           <div class="timeline-details-center"></div>
-          <div class="timeline-details-right">
+          <div class="timeline-details-panel">
             {% for project in item.projects %}
               {% if project.id == "sm_arena" %}
                 {% include timeline-project.html project=project %}

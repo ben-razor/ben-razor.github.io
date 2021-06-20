@@ -1,15 +1,24 @@
-<div>
+{% assign num_features = project.langs.size | plus: project.tools.size %}
+<div class="timeline-project {% if num_features < 2 %}timeline-project-no-features{% endif %}">
 	{% capture project %}{{ include.project }}{% endcapture %}
 	{% capture id %}{{ project.id }}{% endcapture %}
 	{% if side != "left" %} 
-		{% if project.from %} 
-			{{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
-		{% endif %}
-		<div class="timeline-project-name">{{ project.name }}</div>
-		<div class="timeline-project-desc">{{ project.summary }}</div>
+		<div class="timeline-project-header">
+			{% if project.from %} 
+				{{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
+			{% endif %}
+			<div class="timeline-project-name">{{ project.name }}</div>
+		</div>
+		<div class="timeline-project-desc">
+			{{ project.summary }}
+				{% for highlight in project.highlights %}
+					<div class="timeline-project-highlight">
+						{{ highlight }}
+					</div>
+				{% endfor %}
+		</div>
 		<div class="proj-features-panel">
 			<div class="proj-features">
-				{% assign num_features = project.langs.size | plus: project.tools.size %}
 				{% if num_features > 1 %}
 					{% for lang in project.langs %}
 							<div class="proj-skill">{{ lang }}</div>
