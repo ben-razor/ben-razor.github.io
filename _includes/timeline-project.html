@@ -6,6 +6,21 @@
 			{{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
 		{% endif %}
 		<div class="timeline-project-name">{{ project.name }}</div>
-		<div class="timeline-project-desc">{{ project.desc }}</div>
+		<div class="timeline-project-desc">{{ project.summary }}</div>
+		<div class="proj-features-panel">
+			<div class="proj-features">
+				{% assign num_features = project.langs.size | plus: project.tools.size %}
+				{% if num_features > 1 %}
+					{% for lang in project.langs %}
+							<div class="proj-skill">{{ lang }}</div>
+					{% endfor %}
+
+					{% for tool in project.tools %}
+							<div class="proj-skill">{{ tool }}</div>
+					{% endfor %}
+				{% endif %}
+			</div>
+	</div>            
+
 	{% endif %}
 </div>

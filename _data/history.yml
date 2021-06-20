@@ -7,12 +7,12 @@
   projects:
     - id: sample_studio
       name: Sample Studio
-      desc: Music composition software in C++
+      summary: Music composition software in C++
       langs:
         - C++
     - id: pic_tune
       name: PIC Tune
-      desc: Melody composer for the PIC 16F84 Microcontroller
+      summary: Melody composer for the PIC 16F84 Microcontroller
       langs:
         - PIC 16F84 Assembly
   awards:
@@ -28,12 +28,12 @@
   projects:
     - id: dep_boards
       name: Rail information systems
-      desc: Train information board development on a legacy system in the C programming language.
+      summary: Train information board development on a legacy system in the C programming language.
       langs:
         - C
     - id: bidding
       name: Bidding Process Support
-      desc: Technical support and technical writing for bidding processes.
+      summary: Technical support and technical writing for bidding processes.
 - id: sm
   name: Soccer Manager Ltd
   type: work
@@ -45,6 +45,7 @@
       name: SM Worlds 
       from: 2008-04-01
       to: 2011-04-01
+      summary: Multiplayer online football management game.
       desc: >
         Design and development of interactive application features for soccermanager.com multiplayer 
         web application. Including HTML5 canvas Kit Designer and JavaScript commentary
@@ -53,6 +54,13 @@
         Internationalization of application, including design, implementation and coordination of 
         in-game community translation system. Enabling the application to progress from single language to 
         support for 40 languages including Right to Left languages Arabic and Hebrew.
+      highlights:
+        - \> 1 million active players
+        - 40 Languages
+        - HTML5 Canvas Kit Designer
+        - JS Commentary Match Engine
+        - i18n
+        - Community Translation System
       langs:
         - PHP
         - SQL
@@ -63,21 +71,32 @@
       name: DevOps
       from: 2011-04-01
       to: 2012-12-31
+      summary:
+        Setup, configuration and management of web, cache and session server infrastructure. 
       desc: >
         Setup and configuration of web and cache servers, with load balancing to move support
         from 50,000 active users over 1 million active users.
         Developed a suite of in-house administration tools in Bash and Python to manage these servers.
+      highlights:
+        - Deployment and version control toolchains
       langs:
         - Python
         - Bash
+      tools:
+        - Linux
     - id: soccer_engine
-      name: Real Time Interactive Football Simulation
+      name: Real Time Football Simulation
       from: 2013-01-01
       to: 2014-06-01
+      summary:
+        Flexible, realistic interactive match simulation platform with WebGL 3D and Canvas 2D interfaces.
       desc: > 
         Design and implementation of flexible, realistic, real time interactive football match
         simulation platform with HTML5 Canvas 2D interface and basic 3D interface using WebGL.
         Including systems for real physics simulation, targeting and collision detection.
+      highlights:
+        - Physics, targetting and collision detection
+        - Pluggable interface / ai
       langs:
         - JavaScript
         - HTML5
@@ -87,6 +106,8 @@
       name: Soccer Manager 2015 
       from: 2014-06-01
       to: 2015-09-01
+      summary:
+        Single player football management game for Android, iOS, web HTML and mobile HTML.
       desc: >
         Design and development on features and architecture for HTML5 single player
         football game Soccer Manager 2015 with support for Android, iOS, web HTML and mobile HTML.
@@ -98,28 +119,35 @@
         - HTML5
         - Android
     - id: sm_2016
-      name: Soccer Manager 2016
+      name: Soccer Manager 2016 / 2017
       from: 2015-09-01
       to: 2016-09-01
+      summary:
+        Development of new features for single player football management game Soccer Manager 2016.
       desc: >
         Development and conversion to Unity game framework for single player games Soccer Manager 2016 and 2017.
-        Conversion of backend infrastructure to use Google Cloud Platform.
+        Conversion of backend infrastructure to Google Cloud Platform.
+      highlights:
+        Migration of infrastructure to Google Cloud Platform.
       langs:
-        - C#
+        - JavaScript
       tools:
-        - Unity 3D Engine
         - Google Cloud Platform (GCP)
     - id: sm_arena
       name: Soccer Manager Arena
       from: 2016-09-01
       to: 2017-12-31
+      summary:
+        Real-time multiplayer football battle game for Android, iOS and Steam.
       desc: >
         Development and Server Infrastructure for real-time multiplayer game Soccer Manager Arena
         for Android, iOS and Steam. Backend infrastructure setup and development using Amazon Web Services
         in multiple regions.
+      highlights:
+        - Development of game features in Unity C#.
+        - Design and management of AWS infrastructure.
       langs:
         - C#
-        - Python
         - Bash
       tools:
         - Unity 3D Engine
