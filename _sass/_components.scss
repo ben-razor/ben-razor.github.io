@@ -231,8 +231,16 @@
 }
 
 .timeline-award {
-    color: black;
+    position: relative;
     padding: 0.5em;
+    color: black;
+}
+
+.timeline-award:before {
+    content: "❖";
+    position: absolute;
+    left: -0.7em;
+    color: #734d26;
 }
 
 /*
@@ -271,11 +279,14 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
 }
 
 .timeline-project-highlight {
-    padding: 0.8em 0 0 0;
+    position: relative;
+    padding: 0.8em 0 0em 0.5em;
 }
 
 .timeline-project-highlight:before {
     content: "❖";
+    position: absolute;
+    left: -0.7em;
     color: #734d26;
 }
 
