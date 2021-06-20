@@ -173,16 +173,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(900px - (30px * 2));
+  max-width: calc(900px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(900px - (30px));
+      max-width: calc(900px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -562,13 +562,15 @@ pre {
   padding: 1em; }
 
 .timeline-details-left {
-  flex: 1 0 35%; }
+  flex: 1 0 35%;
+  padding: 0 0 1em 0; }
 
 .timeline-details-center {
   flex: 1 0 auto; }
 
 .timeline-details-right {
-  flex: 1 0 35%; }
+  flex: 1 0 35%;
+  padding: 0 0 1em 0; }
 
 .timeline-details-header {
   border: 2px solid black;
@@ -600,8 +602,9 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
 }
 */
 .timeline-project-name {
-  font-family: "Venera", sans-serif;
-  display: inline; }
+  font-family: "Venera500", sans-serif;
+  display: inline;
+  color: #666666; }
 
 .timeline-project-desc {
   padding: 1em 0.5em; }
@@ -616,7 +619,10 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
     flex-direction: column; }
 
   .timeline-header-right {
-    display: none; } }
+    display: none; }
+
+  .timeline-header-center {
+    transform: scale(0.75); } }
 /**
  * Syntax highlighting styles
  */

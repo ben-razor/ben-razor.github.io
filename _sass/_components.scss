@@ -211,6 +211,7 @@
 
 .timeline-details-left {
     flex: 1 0 35%;
+    padding: 0 0 1em 0;
 }
 
 .timeline-details-center {
@@ -219,6 +220,7 @@
 
 .timeline-details-right {
     flex: 1 0 35%;
+    padding: 0 0 1em 0;
 }
 
 .timeline-details-header {
@@ -254,8 +256,9 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
 */
 
 .timeline-project-name {
-    font-family: "Venera", sans-serif;
+    font-family: "Venera500", sans-serif;
     display: inline;
+    color: hsl(0deg, 0%, 40%);
 }
 
 .timeline-project-desc {
@@ -275,5 +278,9 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
 
     .timeline-header-right {
         display: none;
+    }
+
+    .timeline-header-center {
+        transform: scale(0.75);
     }
 }
