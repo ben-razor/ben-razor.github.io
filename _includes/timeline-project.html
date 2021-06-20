@@ -1,0 +1,11 @@
+<div>
+	{% capture project %}{{ include.project }}{% endcapture %}
+	{% capture id %}{{ project.id }}{% endcapture %}
+	{% if side != "left" %} 
+		{% if project.from %} 
+			{{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
+		{% endif %}
+		<div class="timeline-project-name">{{ project.name }}</div>
+		<div class="timeline-project-desc">{{ project.desc }}</div>
+	{% endif %}
+</div>

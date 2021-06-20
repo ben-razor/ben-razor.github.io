@@ -26,45 +26,94 @@ order: 1
       <div class="timeline-header-right"></div>
     </div>
 
-    <div class="timeline-details">
-      <div class="timeline-details-left">
-        {% if item.awards.size > 0 %}
-          <div class="timeline-details-header">Awards</div>
-          {% for award in item.awards %}
-            <div class="timeline-award">{{ award }}</div>
-          {% endfor %}
-        {% endif %}
-
-        {% for project in item.projects %}
-          <div>
-            {% capture id %}{{ project.id }}{% endcapture %}
-            {% capture side %}{{ site.data.history_display.projects[id].side }}{% endcapture %}
-            {% if side == "left" %} 
-              {% if project.from %} 
-                {{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
-              {% endif %}
-              {{ project.name }}
-              <div style="padding: 1em;">{{ project.desc }}</div>
-            {% endif %}
+      {% if item.id == "uclan" %}
+        <div class="timeline-details">
+          <div class="timeline-details-left">
+            <div class="timeline-project-name">Awards</div>
+            {% for award in item.awards %}
+              <div class="timeline-award">{{ award }}</div>
+            {% endfor %}
           </div>
-        {% endfor %}
-      </div>
-      <div class="timeline-details-center"></div>
-      <div class="timeline-details-right">
-          {% for project in item.projects %}
-            <div>
-              {% capture id %}{{ project.id }}{% endcapture %}
-              {% capture side %}{{ site.data.history_display.projects[id].side }}{% endcapture %}
-              {% if side != "left" %} 
-                {% if project.from %} 
-                  {{ project.from | date: "%Y" }} - {{ project.to | date: "%Y" }}: 
-                {% endif %}
-                {{ project.name }}
-                <div style="padding: 1em;">{{ project.desc }}</div>
+          <div class="timeline-details-center"></div>
+          <div class="timeline-details-right">
+              {% for project in item.projects %}
+                {% include timeline-project.html project=project %}
+              {% endfor %}
+          </div>
+        </div>
+
+      {% elsif item.id == "amey" %}
+        <div class="timeline-details">
+          <div class="timeline-details-left">
+            {% for project in item.projects %}
+              {% if project.id == "dep_boards" %}
+                {% include timeline-project.html project=project %}
               {% endif %}
-            </div>
-          {% endfor %}
-      </div>
-    </div>
+            {% endfor %}
+          </div>
+          <div class="timeline-details-center"></div>
+          <div class="timeline-details-right">
+              {% for project in item.projects %}
+                {% if project.id == "bidding" %}
+                  {% include timeline-project.html project=project %}
+                {% endif %}
+              {% endfor %}
+          </div>
+        </div>
+      {% elsif item.id == "sm" %}
+        <div class="timeline-details">
+          <div class="timeline-details-left">
+            {% for project in item.projects %}
+              {% if project.id == "sm_worlds" %}
+                {% include timeline-project.html project=project %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="timeline-details-center"></div>
+          <div class="timeline-details-right">
+            {% for project in item.projects %}
+              {% if project.id == "dev_ops" %}
+                {% include timeline-project.html project=project %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="timeline-details">
+          <div class="timeline-details-left">
+            {% for project in item.projects %}
+              {% if project.id == "soccer_engine" %}
+                {% include timeline-project.html project=project %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="timeline-details-center"></div>
+          <div class="timeline-details-right">
+            {% for project in item.projects %}
+              {% if project.id == "sm_2015" %}
+                {% include timeline-project.html project=project %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="timeline-details">
+          <div class="timeline-details-left">
+            {% for project in item.projects %}
+              {% if project.id == "sm_2016" %}
+                {% include timeline-project.html project=project %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="timeline-details-center"></div>
+          <div class="timeline-details-right">
+            {% for project in item.projects %}
+              {% if project.id == "sm_arena" %}
+                {% include timeline-project.html project=project %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
   {% endfor %}
 </div>

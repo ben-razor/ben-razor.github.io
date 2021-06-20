@@ -11,7 +11,7 @@
       langs:
         - C++
     - id: pic_tune
-      name: Microcontroller / Assembly
+      name: PIC Tune
       desc: Melody composer for the PIC 16F84 Microcontroller
       langs:
         - PIC 16F84 Assembly
@@ -37,12 +37,12 @@
 - id: sm
   name: Soccer Manager Ltd
   type: work
-  title: Senior Software Engineer / DevOps
+  title: Senior Software Engineer
   from: 2008-04-01
   to: 2017-12-31
   projects:
     - id: sm_worlds
-      name: Soccer Manager Multiplayer
+      name: SM Worlds 
       from: 2008-04-01
       to: 2011-04-01
       desc: >
@@ -60,7 +60,7 @@
         - JavaScript
         - CSS
     - id: dev_ops
-      name: Soccer Manager DevOps
+      name: DevOps
       from: 2011-04-01
       to: 2012-12-31
       desc: >

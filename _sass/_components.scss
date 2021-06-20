@@ -18,7 +18,7 @@
 }
 
 .proj-name a, a:hover, a:visited {
-    color: hsl(75deg, 75%, 10%);
+    color: black;
 }
 
 .proj-img-panel {
@@ -234,11 +234,12 @@
 }
 
 .timeline-award {
-    position: relative;
+    color: black;
     padding: 0.5em;
-    color: white;
 }
 
+/*
+Too fancy 80s style text background. Maybe in the future it won't be too fancy
 .timeline-award::before {
     content: "";
     top: 0.1em;
@@ -249,6 +250,16 @@
     z-index: -1;
     transform: perspective(2em) rotateX(1deg) rotateY(1deg);
     opacity: 0.9;
+}
+*/
+
+.timeline-project-name {
+    font-family: "Venera", sans-serif;
+    display: inline;
+}
+
+.timeline-project-desc {
+    padding: 1em;
 }
 
 @media screen and (max-width: 768px) {
