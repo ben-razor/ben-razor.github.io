@@ -4,7 +4,9 @@ title: Projects
 permalink: /projects/
 order: 2
 ---
-A collection of demonstration projects. 
+<div class="page-summary">
+  A selection of demonstration projects. 
+<div>
 
 {% for item in site.data.projects %}
   {% capture img_name %}{{ item.img_name }}{% endcapture %}
