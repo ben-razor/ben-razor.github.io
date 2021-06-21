@@ -14,7 +14,7 @@
     font-family: "Venera500", sans-serif;
     font-size: 1em;
     vertical-align: top;
-    line-height: 0.6em;
+    line-height: 1em;
 }
 
 .proj-name a, a:hover, a:visited {
@@ -291,14 +291,18 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
 }
 
 @media screen and (max-width: 768px) {
+    .page-content {
+        font-size: 85%;
+    }
+
     .timeline {
         background-image: initial;
         padding-top: initial;
-        font-size: 76%;
     }
 
     .timeline-details {
         flex-direction: column;
+        padding: 0 1em;
     }
 
     .timeline-header-right {

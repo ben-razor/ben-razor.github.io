@@ -399,7 +399,7 @@ pre {
   font-family: "Venera500", sans-serif;
   font-size: 1em;
   vertical-align: top;
-  line-height: 0.6em; }
+  line-height: 1em; }
 
 .proj-name a, a:hover, a:visited {
   color: black; }
@@ -632,13 +632,16 @@ Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
   color: #734d26; }
 
 @media screen and (max-width: 768px) {
+  .page-content {
+    font-size: 85%; }
+
   .timeline {
     background-image: initial;
-    padding-top: initial;
-    font-size: 76%; }
+    padding-top: initial; }
 
   .timeline-details {
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 0 1em; }
 
   .timeline-header-right {
     display: none; }
