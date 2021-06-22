@@ -107,8 +107,15 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+}
+
+.site-footer:before {
+    content: '';
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+    border-top: 1px solid $grey-color-light;
 }
 
 .footer-heading {

@@ -282,8 +282,14 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
+
+.site-footer:before {
+  content: '';
+  position: absolute;
+  z-index: -3;
+  width: 100%;
+  border-top: 1px solid #e8e8e8; }
 
 .footer-heading {
   font-size: 18px;
@@ -390,6 +396,13 @@ pre {
   padding: 0.5em;
   border-radius: 1em; }
 
+.big-shout-out {
+  padding: 1em;
+  font-family: 'Venera500', sans-serif;
+  font-size: 30pt;
+  color: white;
+  width: 50%; }
+
 .proj-summary {
   margin: 1em 0;
   display: flex;
@@ -476,6 +489,10 @@ pre {
   height: 650px;
   width: 170px;
   opacity: 0.9; }
+
+.climber-bg {
+  background-color: white;
+  border-radius: 0 200px 0 0; }
 
 .graphic-right {
   position: absolute;
@@ -603,20 +620,22 @@ pre {
   left: -0.7em;
   color: #734d26; }
 
-/*
-Too fancy 80s style text background. Maybe in the 2080s it won't be too fancy
-.timeline-award::before {
-    content: "";
-    top: 0.1em;
-    width: 105%;
-    height: 85%;
-    background-color: hsl(200, 50%, 20%);
-    position: absolute;
-    z-index: -1;
-    transform: perspective(2em) rotateX(1deg) rotateY(1deg);
-    opacity: 0.9;
-}
-*/
+.timeline-award-80s-style {
+  position: relative;
+  padding: 0.5em;
+  color: black; }
+
+.timeline-award-80s-style::before {
+  content: "";
+  top: 0.1em;
+  width: 105%;
+  height: 85%;
+  background-color: #525c3d;
+  position: absolute;
+  z-index: -2;
+  transform: perspective(2em) rotateX(1deg) rotateY(1deg);
+  opacity: 0.9; }
+
 .timeline-project {
   display: flex;
   flex-direction: column;
