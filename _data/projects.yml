@@ -1,6 +1,6 @@
 - img_name: "splash-7-rounded.png" 
   name: "Super Slam Tennis" 
-  desc: "A fast paced tennis game for Android" 
+  desc: "A fast paced tennis game for Android." 
   link: "https://play.google.com/store/apps/details?id=com.games.defttouch.tennis.android"
   languages:
     - JS
@@ -21,7 +21,7 @@
 
 - img_name: "pm-logo-1.png" 
   name: "Peace Machine" 
-  desc: "A mellow sound generator for web and Android" 
+  desc: "A mellow sound generator for web and Android." 
   link: "https://peace-machine-9b07e.web.app/"
   languages:
     - JS
