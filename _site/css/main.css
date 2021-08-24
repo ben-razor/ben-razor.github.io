@@ -506,7 +506,8 @@ pre {
   position: relative; }
 
 .flex-media-left {
-  position: absolute; }
+  position: absolute;
+  top: 4px; }
 
 .flex-media-right {
   margin-left: 2em; }
