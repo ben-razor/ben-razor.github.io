@@ -7,7 +7,7 @@
 .big-shout-out {
     padding: 1em;
     font-family: 'Venera500', sans-serif;
-    font-size: 12pt;
+    font-size: 1em;
     color: hsl(80deg, 60%, 50%);
     width: 80%;
 }
@@ -16,7 +16,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Venera500', sans-serif;
-    font-size: 24pt;
+    font-size: 1.8em;
     color: black;
     text-align: center;
 }
@@ -46,6 +46,21 @@
 
 .screens-1 {
     position: relative;
+}
+
+.screens-1-img {
+    transform: scale(0.9);
+}
+
+.screens-1-desk {
+    background-color: hsla(0deg, 0%, 29%, 0.1);
+    position: absolute;
+    left: 0;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    transform: perspective(7px) scale(1) rotateX(1deg) translateZ(-0.5px);
+    z-index: -1;
 }
 
 .proj-summary {
@@ -110,7 +125,7 @@
 }
 
 .proj-lang {
-    font-size: 10pt;
+    font-size: 1em;
     color: hsl(30%, 30%, 50%);
     padding: 0 0.2em 0 0;
 }
@@ -137,7 +152,11 @@
 }
 
 .flex-media-right {
-    margin-left: 2em;
+    margin-left: 2.4em;
+}
+
+.dev-summary {
+    font-size: 0.85em;
 }
 
 .climber {

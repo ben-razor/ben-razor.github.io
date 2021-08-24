@@ -281,3 +281,9 @@ pre {
         }
     }
 }
+
+@media screen and (max-width: 568px) {
+    body {
+        font-size: 0.7em;
+    }
+}
