@@ -42,7 +42,7 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  overflow-x: hidden;
+  overflow: hidden;
   min-height: 100vh; }
 
 .graffiti {
@@ -401,7 +401,7 @@ pre {
   padding: 1em;
   font-family: 'Venera500', sans-serif;
   font-size: 12pt;
-  color: white;
+  color: #99cc33;
   width: 80%; }
 
 .big-shout-out-2 {
@@ -424,9 +424,9 @@ pre {
 .big-shout-out-80s-style::before {
   content: "";
   top: 0.1em;
-  width: 70%;
+  width: 90%;
   height: 85%;
-  background-color: #575757;
+  background-color: #1a1a1a;
   position: absolute;
   z-index: -2;
   transform: perspective(2em) rotateX(1deg) rotateY(2deg);

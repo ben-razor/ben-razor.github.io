@@ -8,7 +8,7 @@
     padding: 1em;
     font-family: 'Venera500', sans-serif;
     font-size: 12pt;
-    color: white;
+    color: hsl(80deg, 60%, 50%);
     width: 80%;
 }
 
@@ -35,9 +35,9 @@
 .big-shout-out-80s-style::before {
     content: "";
     top: 0.1em;
-    width: 70%;
+    width: 90%;
     height: 85%;
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(26, 26, 26);
     position: absolute;
     z-index: -2;
     transform: perspective(2em) rotateX(1deg) rotateY(2deg);
