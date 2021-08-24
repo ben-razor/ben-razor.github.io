@@ -1,12 +1,8 @@
-<!--
 ---
 layout: page
-title: Writing
 permalink: /blog/
 order: 3
 ---
-
--->
 <h1 class="page-heading">Posts</h1>
 
 <ul class="post-list">
