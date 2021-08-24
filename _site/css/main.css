@@ -427,7 +427,7 @@ pre {
   top: 0.1em;
   width: 90%;
   height: 85%;
-  background-color: #1a1a1a;
+  background-color: #2e3918;
   position: absolute;
   z-index: -2;
   transform: perspective(2em) rotateX(1deg) rotateY(2deg);
