@@ -303,7 +303,8 @@ pre {
 .footer-col-wrapper {
   font-size: 15px;
   color: #828282;
-  margin-left: -15px; }
+  margin-left: -15px;
+  margin-top: 15px; }
 
 .footer-col {
   float: left;
@@ -399,9 +400,40 @@ pre {
 .big-shout-out {
   padding: 1em;
   font-family: 'Venera500', sans-serif;
-  font-size: 30pt;
+  font-size: 12pt;
   color: white;
-  width: 50%; }
+  width: 80%; }
+
+.big-shout-out-2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Venera500', sans-serif;
+  font-size: 24pt;
+  color: black;
+  text-align: center; }
+
+.big-shout-out-lower {
+  position: relative;
+  top: -200px; }
+
+.big-shout-out-80s-style {
+  position: relative;
+  padding: 0.5em;
+  color: black; }
+
+.big-shout-out-80s-style::before {
+  content: "";
+  top: 0.1em;
+  width: 70%;
+  height: 85%;
+  background-color: #575757;
+  position: absolute;
+  z-index: -2;
+  transform: perspective(2em) rotateX(1deg) rotateY(2deg);
+  opacity: 0.9; }
+
+.screens-1 {
+  position: relative; }
 
 .proj-summary {
   margin: 1em 0;
