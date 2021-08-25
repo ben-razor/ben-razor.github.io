@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-order: 2
+order: 1
 ---
 <div class="page-summary">
   A selection of demonstration projects. 
