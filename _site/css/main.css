@@ -433,7 +433,7 @@ pre {
   background-color: #2e3918;
   position: absolute;
   z-index: -2;
-  transform: perspective(2em) rotateX(1deg) rotateY(2deg);
+  transform: rotateX(1deg) rotateY(2deg) scaleX(2);
   opacity: 0.9; }
 
 .screens-1 {
